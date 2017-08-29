@@ -41,6 +41,7 @@
     "prepublish": "npm run build-all"
   },
   "dependencies": {
+    "create-react-class": "^15.6.0",
     "jumpstate": "^2.2.0",
     "pouchdb-browser": "^6.1.1",
     "query-string": "4.2.3",

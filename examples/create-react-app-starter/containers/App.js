@@ -1,9 +1,10 @@
 import React from 'react'
-//
+import createReactClass from 'create-react-class'
+
 import logo from './logo.svg'
 import './App.css'
 
-export default React.createClass({
+export default createReactClass({
   render() {
     return (
       <div className='App'>

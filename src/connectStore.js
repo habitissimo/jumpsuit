@@ -1,5 +1,6 @@
 import React from 'react'
 import { Provider } from 'react-redux'
+import createReactClass from 'create-react-class'
 // import { Router } from 'react-router'
 //
 import CombineState from './combineState'
@@ -26,7 +27,7 @@ export default function (store, base) {
       DevTools = () => <span />
     }
 
-    Root = React.createClass({
+    Root = createReactClass({
       getInitialState: () => ({
         ready: false
       }),
